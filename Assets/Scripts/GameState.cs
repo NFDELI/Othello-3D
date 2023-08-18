@@ -33,12 +33,12 @@ public class GameState
 
         //Initializes the DiscCount.
         DiscCount = new Dictionary<Player, int>()
-        {
+        { 
             { Player.Black, 2 },
             { Player.White, 2 }
         };
 
-        CurrentPlayer = Player.White;
+        CurrentPlayer = Player.Black;
         LegalMoves = FindLegalMoves(CurrentPlayer);
     }
 
